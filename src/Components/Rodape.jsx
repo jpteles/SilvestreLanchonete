@@ -10,8 +10,7 @@ function Rodape(){
           <section className="info">
             <h6>Silvestre Lanchonete</h6>
             <p id="cardapio">Cardápio</p>
-            <br />
-            <p>Software  2024 - Todos os direitos reservados.</p>
+            <p id="direitos">Software  2024 - Todos os direitos reservados.</p>
           </section>
         </footer>
 
