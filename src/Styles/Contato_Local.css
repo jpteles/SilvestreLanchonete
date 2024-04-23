@@ -1,0 +1,40 @@
+.Sec-Pai{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.Contato{
+    width: 40%;
+    border-radius: 10px;
+    background-color: #D84801;
+}
+
+.Contato p{
+    text-align: left;
+}
+
+.Botoes{
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+}
+
+.Whatsapp{
+    border-radius: 10px;
+    width: 100%;
+    border: none;
+}
+
+.Insta{
+    background-color: transparent;
+    border-radius: 100%;
+    width: 100%;
+    border: none;
+}
+
+
+.Botoes img{
+    width: 100%;
+}

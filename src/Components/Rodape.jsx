@@ -1,5 +1,5 @@
 import '../Styles/Rodape.css'
-import Logo from '../Imagens/logo.png'
+import Logo from '../Imagens/Logo.png'
 
 function Rodape(){
     return(
