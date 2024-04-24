@@ -1,3 +1,13 @@
+@font-face {
+  font-family: 'FontePadrao';
+  src: url('../src/Fontes/Inter/Inter-VariableFont_slnt\,wght.ttf');
+}
+
+*{
+  font-family: 'FontePadrao';
+  font-weight: 700;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',

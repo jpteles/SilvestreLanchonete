@@ -8,28 +8,40 @@
 .Contato{
     width: 40%;
     border-radius: 10px;
-    background-color: #D84801;
+    margin-top: 5%;
+}
+
+.Contato h3{
+    font-size: 30px;
+    color: #ffffff;
+    font-family: 'FontePadrao';
+    font-weight: 700;
 }
 
 .Contato p{
+    font-size: 18px;
+    padding-left: 10%;
+    padding-top: 5%;
     text-align: left;
+    color: #ffffff;
 }
 
 .Botoes{
     display: flex;
     flex-direction: row;
     width: 40%;
+    padding-left: 10%;
+    padding-top: 5%;
 }
 
 .Whatsapp{
-    border-radius: 10px;
+    background-color: transparent;
     width: 100%;
     border: none;
 }
 
 .Insta{
     background-color: transparent;
-    border-radius: 100%;
     width: 100%;
     border: none;
 }
@@ -37,4 +49,55 @@
 
 .Botoes img{
     width: 100%;
+    height: 100%;
+}
+
+.Local{
+    width: 50%;
+}
+
+@media screen and (max-width: 412px) {
+
+    .Sec-Pai{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Contato{
+        width: 100%;
+        border-radius: 10px;
+        margin-top: 5%;
+    }
+
+    .Contato h3{
+        font-size: 20px;
+    }
+    
+    .Contato p{
+        font-size: 10px;
+        padding-left: 10%;
+        padding-top: 5%;
+    }
+
+    .Botoes{
+        display: flex;
+        justify-content: center;
+        width: 30%;
+        margin-left: 35%;
+        padding-left: 0%;
+        padding-top: 0%;
+    }
+
+    .Whatsapp , .Insta{
+        width: 70%;
+    }
+
+    .Local{
+        width: 80%;
+        height: 10%;
+        margin-left: 10%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
 }
